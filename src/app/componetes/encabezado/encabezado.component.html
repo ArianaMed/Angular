@@ -1,1 +1,50 @@
-<p>encabezado works!</p>
+<header>
+    <nav class="navbar navbar-light bg-light">
+      <!--Argentina Programa Logo-->
+        <div class="container">
+          <a class="navbar-brand justify-content-start" href="#">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAYNJREFUaEPtmOFNxDAMhW0vQJmIYwIY4dgAJoANGIFjA0aAjY4F/FAkTmqF4Owqadzi+9vX5D1/vjQJ00Z/vNFclMHWRjaJrZ3YICLPAG6ZeVggzEFVH4joWHuuSSsy8xsz39Se5Mx4r6q6rz3nJJiIoPYE58YDcARweU7nfd49WDGsqtUXsQzmbQWPvhsxAB/MfOUx69H2CnZatfYi8uIxbNUuHqyQArAbGWwSbvFg3yvWHREdWobrEmyJcN2CtQ6XwayrEdH0oPnblkpVm/7PuhBrHarLlgrAO4Bry4porbqIPBHR47irrO86OtHUiuXMVFrxz2+Y1VykYFTIMfP4Q/2jeKsM5mmBOVprUTxj57HFUy2vdpPEAHwCqH5x9D8uc4hoYOayk98x84W3pWboy1nvvvn12wxjYV+pfjsUJWkGi0LC6iOJWSsVRZfEopCw+khi1kpF0SWxKCSsPpKYtVJRdEksCgmrjyRmrVQUXRKLQsLqI4lZKxVFl8SikLD6+AIbzr03f73fLwAAAABJRU5ErkJggg=="/>
+          </a>
+ 
+      <!--Redes sociales y Log In-->
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://www.instagram.com/aarii.med/" target="blank" rel="noopener noreferrer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAW5JREFUSEvNlf8xBEEQhb/LQAaIABEgAmRABjJABEoEiAARIAJEQAaIgPpUt5qbGrtzf2ydrpq6u93pfu/1r5sxsc0mjs/SANaAE2AzzpDQZ8BzEZ9zd1sKDoHLuPUIfLQc470EVoDt+H0EXJUINYAOT4CB9yN4T5lUfAtsAFsloRpAdAPrIPMxk/1NENL3FbgGzMKP1QBvgGenEVlgGWrm/C7qk4r1eQBWgfW/AL6iWMcFgCzvG8U22EGolZSKfWY9fonXCgQ4A04LANmaMmWbZ001pkT2u8XdhQEMZI5lmsEzXnZb+W5hAJU4D612NnXvleL/BzB5irIlbT1zbmtqfj8HXqqW7kqRO6VuUx1zBrLIrWkfBRgbNFdJqqq7yucC2NKe5iTb23sxiT2rohx4g46uilx2MnEzqqjHDO686D+47LKAua4FGlrXubPyc3RdJ1uZWGgd7aAh+4zcO5SulTlb2l9mT9677kyu4Bs/S2cZaEf9zgAAAABJRU5ErkJggg=="/></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAO1JREFUSEvtldERwUAQhr9UgBJUgArQgRJ0QAl0QAVKMDqgAzrQASpgfrNnLjeZRC5uvOSeLpvd/9vd20syEq8ssT5FgK5B77+Ah4ANsDDhNbBqCvEByvzmCaqCXkqAtAVo1KqyFm2B5S8rcFpJD3kCPI30AM62HwKdwK5EBoBi5HcBrmHFYYucuPxOFqz9ERhbsOyarj3gqnW6smv6PisGoCwlHIo70akl9H6OAVSd+wGYOadYgC8yB3YeVRX2mwJG3gBIS3fFDUGuM7EVhHH+ELSAwulrW5T7VBRd0K9bVHVLa7//y0+/dpZlAS8ZgkgZgf59vgAAAABJRU5ErkJggg=="/></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="log" href="login.html">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAgFJREFUSEu1Ve1t2zAQvSP4TySiTNB0giYTtJ4g6QRxJqg9Qd0JnGxgT9BmgiYTxNkg3UAFj79s+IozSIH6VmqYgCCI4r139+6DCCdeeGJ8GCSw1t7s9/trRLwEAHlkbZh5AwBP3vt1n5OdBAF4iYgXfQDM/KaUmjvnfrWdayUwxiwA4Ps75bsnonndpkHwn+AR94GIZilJhcAY8wUAfocDj8y8QMQpAHwLe6/h/UneiLhm5pWcYebbsPc1latCYK19Y+YPAeQHEYlUkOd5XhRFkXqW7qVRS0689x/j2ZJAksrMP8sfiGvnnHg/uOqyIuKdc251iChaW2tXMcywNyGip0F0AMiy7BIRX9qcKwmMMQL2OWpNRLHmx3BAzX5DRFeVCIwxovFZQHsmIkn46FUjACI6OJ9GwAnaSQhSiQoiOh/tPoBIVCqAiH+cc4cJ0JlkZp577+/HkGRZNkPEZW+Sa2X6N+RjobV+qPdABJJe2G63t4hYcaS1TMUoNNoZM0+UUrOkbB+11tNIJMC73U7qXKouT6NM5alIJB/JqCi01lcJSNnVPX0Tf1X6pzHsEj1bp2NE6RiK/cMuGickcqkUMtRi6/cQNKJsSJRqKXIhoowPGX4N4xiBaM7M066xMnhlChEzF957iaZcMn+UUhddN1lZsmPq/JgzgxEcAy62/wCChA0o0ViGRwAAAABJRU5ErkJggg=="/>
+              </a>
+            <li class="nav-item">
+                <a class="nav-link" id="log" href="login.html">
+                  <button type="button" class="btn btn-outline-dark btn-sm">Log in
+                </button></a>
+            </li>
+          </ul>
+          </div>
+      </nav>
+   </header>
+    <nav class="bd-subnavbar py-2 navbar-light" id="segundBarra" aria-label="Secondary navigation">
+      <ul id="centro" class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link link-dark" aria-current="page" href="#dper">Datos personales</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-dark" href="#1">Educación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-dark" href="#fondoHYC">
+            Habilidades y conocimientos 
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-dark" href="#pro">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-dark" href="#irCont">Contacto</a>
+        </li>
+      </ul>
+    </nav>
