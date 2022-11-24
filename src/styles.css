@@ -1,74 +1,91 @@
-@media screen and (max-width: 980px){
-   .nombre{
-       padding: 20px;
-       font-size: 35px;
+@media screen and (max-width:980px){
+   .foto{
+       position: center;
+   }
+   .nombre {
+       font-size: 15px;
+       padding: 6px;
+   }
+   .banner {
+       height: 275px;
+   }
+   .parrafoA,.parrafoB, .parrafoC, .parrafoD {
+      padding: 0 0 0 10px;
    }
    .bordes{
-     padding-left: 30px;
-     padding-right: 30px;
+       padding-left: 20px;
+       padding-right: 20px;
    }
-   .parrafoA {
-     padding: 0 0 0 10px;
-     font-family: 'Barlow Semi Condensed', sans-serif;
-     font-size: 22px;
+   .cuadro,.cuadrado {
+       padding-left: 5px;
+       padding-right: 5px;
+       padding-top: 1px;
+       padding-bottom: 4px;
    }
-} 
+   .acerca-de {
+       padding: 0px 0 0 4px;
+       font-family: 'Bebas Neue', cursive;
+   }
+   
 
-
-main {
-  margin:0;
-  padding:0;
-  text-decoration: none;
-  box-sizing: border-box;
-  list-style: none;
 }
 
-#segundBarra {
+* {
+   margin:0;
+   padding:0;
+   text-decoration: none;
+   box-sizing: border-box;
+   list-style: none;
+}
+
+#segundaBarra {
    position: sticky;
    top: 0;
-   background-color: lightsalmon;
+   background-color: #fdb67e;
    font-family: 'Bebas Neue', cursive;
    z-index: 20;
-  }
- 
+}
 #centro {
    color: #000;
 }
 
 /* banner*/
 .banner {
-   background-image: url('../assets/banner.jpg');
+   background-image: url('assets/banner.jpg');
    height: 350px;
    width: 100%;
    background-repeat: no-repeat;
    background-size: cover;
    border-style: none none solid;
-   border-color: burlywood;
+   border-color: #fdb67e;
+   padding-bottom: 80px;
 }
 
 .contenido {
    display: flex;
    justify-content: center;
    align-items: center;
-   padding: 20px;
+   margin-left:0;
    height: 100vh;
 }
 .foto {
    width: 200px;
    height: 200px;
+   padding-left: 0;
+   margin-left: 0;
    border-radius: 50%;
    border-style: solid;
-   border-color: burlywood;
+   border-color: #fdb67e;
    border-width: 4px;
 }
 
 .nombre {
    text-align: center;
    text-justify: center;
-   padding: 70px;
-  /* height: 100vh;*/
+   padding: 10px;
    font-family: 'Aboreto', cursive;
    font-size: 35px;
+   padding-bottom: 100px;
 }
 #log {
    color:black;
@@ -80,8 +97,9 @@ main {
 }
 
 .acerca-de {
-   padding: 10px 0 0 40px;
+   padding: 10px 0 0 60px;
    font-family: 'Bebas Neue', cursive;
+   padding-bottom: 25px;
 }
 .educacion {
    padding: 10px 0 0 40px;
@@ -91,13 +109,31 @@ main {
    padding: 10px 0 50px 40px;
    font-family: 'Bebas Neue', cursive;
 }
-.dropdown-item{
-   font-family: 'Barlow Semi Condensed', sans-serif;
-}
 h2{
    font-size: 40px;
 }
 
+.editar4 {
+   border-style: solid;
+   border-radius: 15%;
+   border-color: black;
+   bottom: 0;
+
+}
+
+.plus {
+   padding-left: 50%;
+}
+
+
+.nombreCompleto {
+   padding: 0 0 0 0;
+}
+.ari {
+   padding: 10px 0 0 20px;
+   font-family: 'Barlow Semi Condensed', sans-serif;
+   font-size: 18px;
+}
 .parrafoA {
    padding: 10px 0 0 60px;
    font-family: 'Barlow Semi Condensed', sans-serif;
@@ -119,6 +155,7 @@ h2{
 .bordes{
    padding-left: 200px;
    padding-right: 200px;
+   padding-bottom: 60px;
 }
 
 .cuadro {
@@ -145,9 +182,17 @@ h2{
 }
 
 .barra-1 {
-   padding-top: 80px;
-   padding-bottom: 40px;
+   padding-top: 0px;
+   padding-bottom: 50px;
+   margin-top: 0px;
 }
+
+.barra-0_5 {
+   padding-top: 45px;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+}
+
 /*Gmail*/
 label {
    margin: 0;
@@ -164,7 +209,7 @@ input {
 /*    border-radius: 10px;*/
 }
 
-input[type="text"],
+input[type="text"], 
 input[type="email"] {
    /*border: none;*/
    border: 1px solid #afbbbd;
@@ -185,20 +230,21 @@ input[type="submit"] {
 }
 textarea {
    border: 1px solid #afbbbd;
-   border-color: #afbbbd;
-   background: transparent;
-   height: 180px;
-   width: 100%;
-   border-radius: 10px;
-   border-width: 0,05px;
-}
+border-color: #afbbbd;
+background: transparent;
+height: 180px;
+width: 100%;
+border-radius: 10px;
+border-width: 0,05px;
+} 
 hr {
    color: transparent;
 }
 
 #barra-2 {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+padding-top: 0px;
 }
 .hyc {
    font-family: 'Bebas Neue', cursive;
@@ -207,7 +253,7 @@ hr {
    padding-top: 50px;
 }
 .fondoHYC {
-  
+   
    background-color: rgb(244, 243, 243);
    padding-bottom: 0px;
    margin-bottom: 0px;
@@ -252,7 +298,7 @@ hr {
 .bar .progress-line span{
    height: 100%;
    width: 80%;
-   background: #67b55b;
+   background: #ffec9f;
    position: absolute;
    border-radius: 10px;
    transform: scaleX(0);
@@ -277,7 +323,7 @@ hr {
    width: 98%;
 }
 .progress-line.office span{
-    width: 100%;
+   width: 100%;
 }
 .progress-line.desarrolloweb span{
    width: 72%;
@@ -378,10 +424,20 @@ hr {
    padding: 50px;
    margin-left: 70px;
    font-family: 'Bebas Neue', cursive;
+   padding-bottom: 120px;
+  
 }
 .titulProy{
-   margin-bottom: 80px;
+   margin-bottom: 0px;
+ 
 }
+
+#proy {
+   padding-bottom: 80px;
+}
+
+
+
 #descript{
    margin-left: 20px;
 }
@@ -393,7 +449,7 @@ hr {
    height: 220px;
    width: 450px;
    border-style: solid;
-   border-color: #67b55b;
+   border-color: #ffec9f;
    border-radius: 50px;
 }
 #primerproy{
@@ -402,31 +458,96 @@ hr {
 
 /*contacto*/
 
-#barra-4 {
-   margin-top: 120px;
-   padding-top: 0px;
-}
+
 
 .contacto{
-   padding: 50px;
-   margin-left: 70px;
-   font-family: 'Bebas Neue', cursive;
+   padding: 65px;
+   margin-left: 0px;
+   font-family: 'Bebas Neue', cursive;    
+}
+.sendmail{
+   margin-left: 40px;
+  
+}
+#exampleFormControlInput1{
+   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+#mimail {
+   font-family: 'Barlow Semi Condensed', sans-serif;
+   font-size: 17px;
+}
 .titulCont{
    margin-bottom: 80px;
+  
+   
 }
 
 .formCont{
-    position: center;
+   position: center;
+   border-color: #ffec9f;
+   border-radius: 2%;
+   padding: 26px 26px 26px 26px;
+   border-top: solid #fdb67e 0.4px;
+   border-left: solid #fdb67e 0.40px;
+   border-right: solid #fdb67e 0.4px;
+   border-bottom: solid #fdb67e  0.4px;
+}
+
+.form-control {
+   border-color: #ffec9f;
 }
 
 #miMail{
    padding-top: 50px;
+   padding-bottom: 50px;
 }
 
-#correo {
- font-family:'Inter Tight', sans-serif;
+.editar {
+   border-style: solid;
+   border-radius: 15%;
+   border-color: black;
+   float: right;
+   
 }
 
+.editar2 {
+   border-style: solid;
+   border-radius: 15%;
+   border-color: black;
+   float: right;
+}
 
+#edit {
+   padding-top: 80px;
+}
+
+#titulos {
+   font-family:  'Bebas Neue', cursive;
+   font-size: 18px;
+   background-color:  #ffec9f;
+}
+#tarjeta {
+   padding-left: 275px; 
+   padding-top: 50px;
+   padding-bottom: 45px;
+}
+
+.editar3 {
+   border-style: solid;
+   border-radius: 15%;
+   border-color: black;
+   float: bottom;
+   bottom: 0;
+}
+
+.pluss {
+   padding-left: 45%;
+   padding-bottom: 60px;
+}
+
+.plusss {
+   padding-left: 50%;
+   padding-top: 0px;
+   padding-bottom: 0px;
+}
