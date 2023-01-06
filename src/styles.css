@@ -259,6 +259,10 @@ padding-top: 0px;
    margin-bottom: 0px;
 }
 
+#tarjetas{
+   max-width: 780px;
+}
+
 /*Barras animadas de progreso */
 .skills-bar {
    margin: 0;
@@ -481,6 +485,10 @@ padding-top: 0px;
    margin-bottom: 80px;
   
    
+}
+
+.form-control{
+   height: 350px;
 }
 
 .formCont{
