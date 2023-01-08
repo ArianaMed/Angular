@@ -1,0 +1,43 @@
+.nombre {
+    text-align: center;
+    text-justify: center;
+    padding: 10px;
+    font-family: 'Aboreto', cursive;
+    font-size: 35px;
+    padding-bottom: 100px;
+ }
+
+ .acerca-de {
+    padding: 10px 0 0 60px;
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 25px;
+ }
+
+ .parrafoA {
+    padding: 10px 0 0 60px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 18px;
+ }
+
+ #descarga {
+    padding: 50px 0 0 80px;
+    border-radius: 20px;
+ }
+
+ .bordes{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+ }
+
+ .hola {
+    border-style: none solid none solid;
+    padding-top: 0px;
+  }
+
+  .editar2 {
+    border-style: solid;
+    border-radius: 15%;
+    border-color: black;
+    float: right;
+ }

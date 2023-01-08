@@ -38,16 +38,7 @@
    list-style: none;
 }
 
-#segundaBarra {
-   position: sticky;
-   top: 0;
-   background-color: #fdb67e;
-   font-family: 'Bebas Neue', cursive;
-   z-index: 20;
-}
-#centro {
-   color: #000;
-}
+
 
 /* banner*/
 .banner {
@@ -79,14 +70,7 @@
    border-width: 4px;
 }
 
-.nombre {
-   text-align: center;
-   text-justify: center;
-   padding: 10px;
-   font-family: 'Aboreto', cursive;
-   font-size: 35px;
-   padding-bottom: 100px;
-}
+
 #log {
    color:black;
 }
@@ -96,11 +80,7 @@
    background-color: transparent;
 }
 
-.acerca-de {
-   padding: 10px 0 0 60px;
-   font-family: 'Bebas Neue', cursive;
-   padding-bottom: 25px;
-}
+
 .educacion {
    padding: 10px 0 0 40px;
    font-family: 'Bebas Neue', cursive;
@@ -134,11 +114,7 @@ h2{
    font-family: 'Barlow Semi Condensed', sans-serif;
    font-size: 18px;
 }
-.parrafoA {
-   padding: 10px 0 0 60px;
-   font-family: 'Barlow Semi Condensed', sans-serif;
-   font-size: 18px;
-}
+
 
 .parrafoB {
    padding: 65px 0 0 60px;
@@ -152,11 +128,7 @@ h2{
 }
 
 
-.bordes{
-   padding-left: 200px;
-   padding-right: 200px;
-   padding-bottom: 60px;
-}
+
 
 .cuadro {
    padding-left: 200px;
@@ -172,14 +144,8 @@ h2{
    padding-bottom: 150px;
 }
 
-.hola {
-  border-style: none solid none solid;
-  padding-top: 0px;
-}
-#descarga {
-   padding: 50px 0 0 80px;
-   border-radius: 20px;
-}
+
+
 
 .barra-1 {
    padding-top: 0px;
@@ -519,12 +485,7 @@ padding-top: 0px;
    
 }
 
-.editar2 {
-   border-style: solid;
-   border-radius: 15%;
-   border-color: black;
-   float: right;
-}
+
 
 #edit {
    padding-top: 80px;

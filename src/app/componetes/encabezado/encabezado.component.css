@@ -1,0 +1,10 @@
+#segundBarra {
+    position: sticky;
+    top: 0;
+    background-color: #fdb67e;
+    font-family: 'Bebas Neue', cursive;
+    z-index: 20;
+ }
+ #centro {
+    color: #000;
+ }
