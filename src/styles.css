@@ -81,10 +81,7 @@
 }
 
 
-.educacion {
-   padding: 10px 0 0 40px;
-   font-family: 'Bebas Neue', cursive;
-}
+
 .conocimientos {
    padding: 10px 0 50px 40px;
    font-family: 'Bebas Neue', cursive;
@@ -116,26 +113,12 @@ h2{
 }
 
 
-.parrafoB {
-   padding: 65px 0 0 60px;
-   font-family: 'Barlow Semi Condensed', sans-serif;
-   font-size: 18px;
-}
-.parrafoC {
-   padding: 70px 0 0 60px;
-   font-family: 'Barlow Semi Condensed', sans-serif;
-   font-size: 18px;
-}
 
 
 
 
-.cuadro {
-   padding-left: 200px;
-   padding-right: 200px;
-   padding-top: 50px;
-   padding-bottom: 150px;
-}
+
+
 
 .cuadrado {
    padding-left: 200px;
@@ -228,6 +211,16 @@ padding-top: 0px;
 #tarjetas{
    max-width: 780px;
 }
+
+
+.editar {
+   border-style: solid;
+   border-radius: 15%;
+   border-color: black;
+   float: right;
+   
+}
+
 
 /*Barras animadas de progreso */
 .skills-bar {
@@ -441,6 +434,7 @@ padding-top: 0px;
 }
 #exampleFormControlInput1{
    font-family: 'Barlow Semi Condensed', sans-serif;
+   width: 740px;
 }
 
 #mimail {
@@ -453,7 +447,11 @@ padding-top: 0px;
    
 }
 
-.form-control{
+.enviar {
+    padding-top: 15px;
+}
+
+#floatingTextarea2{
    height: 350px;
 }
 
@@ -477,13 +475,6 @@ padding-top: 0px;
    padding-bottom: 50px;
 }
 
-.editar {
-   border-style: solid;
-   border-radius: 15%;
-   border-color: black;
-   float: right;
-   
-}
 
 
 
